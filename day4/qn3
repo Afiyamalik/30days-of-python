@@ -1,0 +1,15 @@
+import cmath
+
+def findroots(a,b,c):
+    discriminant=b**2-4*a*c
+    root1=(-b+cmath.sqrt(discriminant))/2*a
+    root2=(-b-cmath.sqrt(discriminant))/2*a
+    return root1,root2
+
+a=float(input("Enter the coefficient of a :"))
+b=float(input("Enter the coefficient of b :"))
+c=float(input("Enter the coefficient of c :"))
+
+roots=findroots(a,b,c)
+print("Roots:",roots)
+    
