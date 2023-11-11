@@ -1,0 +1,4 @@
+books=[{"title":"Computer networks","Author":"Saurabh","year":"2016"},{"title":"Data structures using c","Author":"Sharad","year":"2015"},{"title":"server computing","Author":"Lalit kumar","year":"2012"}]
+print("The title of the books in list is")
+for dict in books:
+    print(dict["title"])

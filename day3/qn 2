@@ -1,0 +1,4 @@
+person={"name":"aaliya","email":"aaliyakhana@gmail.com","phone":"8792345450"}
+print("the name is ",person["name"])
+print("the contact number is ",person["phone"])
+

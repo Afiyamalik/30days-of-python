@@ -1,0 +1,4 @@
+fruits={"apple","banana","grapes","kiwi","litchie"}
+fruits.add("papaya")
+fruits.add("mango")
+print(fruits)

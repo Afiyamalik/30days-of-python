@@ -1,0 +1,6 @@
+movies=["Raatchasan","Harry Potter and chamber of secrets","Twilight"]
+movies.append("Ratatouille")
+movies.append("The lion king")
+
+print(movies)
+ 
