@@ -1,0 +1,18 @@
+coins=int(input("Enter the total number of coins:"))
+p1=int(input("coins for person 1:"))
+p2=int(input("coins for person 2:"))
+p3=int(input("coins for person 3:"))
+
+if p1!=0 and p2!=0 and p3!=0:
+    if p1>0 and p2>0 and p3>0:
+        if p1!=p2 and p2!=p3 and p3!=p1:
+            if p1+p2+p3==coins:
+                print("FAIR")
+            else:
+                print("UNFAIR!!")
+        else:
+             print("UNFAIR!! No equal coins can be given for 2 persons.")
+    else:
+        print("UNFAIR!! NO negative coins can be given.")
+else:
+    print("UNFAIR!! All the persons should be given coins.")

@@ -1,0 +1,12 @@
+employee1_Id=int(input("Enter the Id of Employee 1:"))
+employee2_Id=int(input("Enter the Id of Employee 2:"))
+employee3_Id=int(input("Enter the Id of Employee 3:"))
+employee4_Id=int(input("Enter the Id of Employee 4:"))
+employee5_Id=int(input("Enter the Id of Employee 5:"))
+if (employee1_Id!=employee2_Id!=employee3_Id!=employee4_Id!=employee5_Id!=employee1_Id):
+        if (employee1_Id+employee2_Id)%2==0 and (employee2_Id+employee3_Id)%2==0 and (employee3_Id+employee4_Id)%2==0 and (employee4_Id+employee5_Id)%2==0 and (employee5_Id+employee1_Id)%2==0:
+            print("YES")
+        else:
+            print("NO")
+else:
+    print("NO!Employee Id should be unique.")

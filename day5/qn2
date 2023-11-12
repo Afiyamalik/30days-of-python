@@ -1,0 +1,15 @@
+time=float(input("Enter the time:"))
+if time<0:
+    print("INVALID TIME.")
+elif 0<=time<=5:
+    print("NIGHT")
+elif 6<=time<=11:
+    print("MORNING")
+elif 12<=time<=17:
+    print("AFTERNOON")
+elif 18<=time<=23:
+    print("EVENING")
+elif time>=24:
+    print("INVALID")
+
+
