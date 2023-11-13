@@ -1,0 +1,8 @@
+a=int(input("Enter a="))
+b=int(input("Enter b="))
+sum=0
+for i in range(1,11):
+    if i%a==0 and i%b==0:
+        sum=sum+i
+print("sum of integers divided by a and b are",sum if sum!=0 else 0)
+    
